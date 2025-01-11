@@ -71,6 +71,7 @@ margin: auto;
 
 
 /* main styles */
+
  main{
     max-width: 1200px;
     margin: 110px ;
@@ -79,6 +80,7 @@ margin: auto;
 } 
 
 /* pillars  styles*/
+
 .text-center{
     display: flex;
     margin:24px  160px; 
@@ -95,6 +97,7 @@ margin: auto;
 
 
 .pillars-of-bd{
+   
     height: 300px;
     width: 1200px;
   display: flex;
@@ -113,6 +116,8 @@ margin: auto;
 }
 
 /* vision styles */
+
+
 .vision-container{
     display: flex;
     width: 1280px;
@@ -187,4 +192,115 @@ margin: auto;
     height: 256px;
     padding: 24px;
     margin: 160px 973px 160px 80px;
+}
+
+/* opinion styles */
+h2{
+    margin-left: 56px;
+}
+
+.opinion-container{
+    width: 1280px;
+    height: 481px;
+    margin-left: 32px;
+}
+table{
+    width: 1216px;
+    height: 345px;
+    border-collapse: collapse;
+    box-shadow: 0px 6px 50px  0px rgb(179, 177, 177);
+    margin: 32px;
+}
+th, td{
+    border: 2px solid gray;
+    padding:10px ;
+    text-align: left;
+    
+}
+th{
+    background-color: #C6E4D6;
+}
+select{
+    padding: 14px;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+
+}
+
+/* recent news */
+.recent-news{
+
+    margin-left: 5px;
+}
+.news-description{
+    color:#434242;
+    margin-left: 60px;
+    
+}
+.card{
+    display: flex;
+     justify-content: space-around;
+     
+     gap: 32px;
+    width:1280px ;
+    height: 402px;
+    border-radius: 24px;
+    border: 2px solid gray;
+    /* overflow: hidden; */
+    margin-left: 45px;
+}
+.earth-1{
+   display: flex;
+   width: 408px;
+   height: 306px;
+   padding: 38px ;
+   border-radius: 24px;
+   
+}
+.earth-2{
+    display: flex;
+    float: right;
+    width: 408px;
+    height: 306px;
+    padding: 38px ;
+    border-radius: 24px;
+    
+ }
+
+
+.news{
+    justify-content: space-between;
+    width: 744px;
+    height: 50px;
+    gap: 12px;
+}
+.aj{
+    width: 134px;
+    height: 40px;
+    margin:5px 10px 5px;
+}
+.aj-description{
+    width: 744px;
+    height: 72px;
+    line-height: 24px;
+    text-align:justify;
+   margin-right: 30px;
+}
+
+.btn-third{
+    margin-top: 70px;
+    height: 48px;
+    width: 139px;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    border-color: #006A50;
+}
+
+
+/* donate */
+.donate{
+    width: 1280;
+    height: 48;
+    
 }
