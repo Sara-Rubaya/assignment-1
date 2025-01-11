@@ -14,7 +14,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:24px 160px 1324px  ;
+    margin:24px 160px;
    
 
 }
@@ -36,24 +36,34 @@ nav ul li{
     font-weight: bold;
     color: white;
     border-color: #006A50;
-    background-color:#006A50 ;
+    background-color:#006A50;
     border-radius: 8px;
     padding: 17px 34px;
 }
 /* Banner styles */
 .banner{
 background-color:#C6E4D6 ;
+display: flex;
+justify-content: space-between ;
+width: 1400px;
+height: 500px;
+border-radius: 8px;
+margin: auto;
+/* background-position: right; */
+
 
 
 }
 .banner-content{
-   
+  max-width:700px;
+    height: 340px;
+    margin:120px 60px  550px; 
     
 }
 .image-1{
-    max-width: 300px;
-    height: auto;
-    margin-left: 20px;
+    width: 474px;
+    height: 400px;
+   margin: 80px 60px 746px;
 }
 .banner-discription{
     color:grey ;
