@@ -104,10 +104,87 @@ margin: auto;
  }  
 .pillar{
     padding: 10px ;
-    box-shadow: 0px 6px 50px  0px grey;
+    box-shadow: 0px 6px 50px  0px rgb(179, 177, 177);
     border-radius: 16px;
     padding: 24px;
     width: 302px;
     height: 244px;
     
+}
+
+/* vision styles */
+.vision-container{
+    display: flex;
+    width: 1280px;
+    height: 477px;
+    padding: 0;
+    gap: 100px;
+    margin:20px 50px 20px 50px;
+    justify-content: center;
+    align-items: center;
+
+   
+    
+}
+.vision-1{
+    width: 450px;
+    height: 300px;
+    padding: 22px;
+    background-color: rgb(176, 209, 236);
+    border-radius:16px ;
+    box-shadow: 0px 6px 50px  0px rgb(179, 177, 177);
+
+}
+.btn-1{
+    color: white;
+    background-color:#5490F5 ;
+    border-color: #5490F5;
+    border-radius: 8px;
+}
+.vision-2{
+    width: 450px;
+    height: 300px;
+    padding: 22px;
+    background-color:#C6E4D6 ;
+    border-radius:16px ;
+     box-shadow: 0px 6px 50px  0px rgb(179, 177, 177);
+}
+.btn-2{
+    color: white;
+    background-color:#09A15C ;
+    border-color:#09A15C ;
+    border-radius: 8px;
+}
+.vision-3{
+    width: 450px;
+    height: 300px;
+    padding: 22px;
+    background-color:#F7EBCF ;
+    border-radius:16px ;
+    box-shadow: 0px 6px 50px  0px rgb(179, 177, 177);
+}
+.btn-3{
+    color: white;
+    background-color:#FFC239 ;
+    border-color:#FFC239 ;
+    border-radius: 8px;
+}
+.vision-future{
+    /* padding: 50px; */
+    margin-left: 20px
+}
+
+/* comment styles */
+.comment{
+    color: #0E0E0E;
+}
+.comment-container{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 50px  0px rgb(179, 177, 177);
+    border-radius: 16px;
+    width: 1280px;
+    height: 256px;
+    padding: 24px;
+    margin: 160px 973px 160px 80px;
 }
