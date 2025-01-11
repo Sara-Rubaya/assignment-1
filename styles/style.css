@@ -360,6 +360,7 @@ select{
     font-weight: bold;
     box-shadow: 0px 6px 50px  0px rgb(179, 177, 177);
 }
+
 .donate-description{
     /* margin-left: 50px; */
     text-align: center;
@@ -378,8 +379,9 @@ select{
     width: 1200px;
     height: 350px;
     border-radius: 8px;
-    margin: auto;
-    /* background-position: right; */
+    margin-top: 10px;
+   margin-left: 40px;
+    
 }
 .letter-description{
     margin-left:  100px;
@@ -417,9 +419,12 @@ select{
 .footer{
     display: flex;
     text-align: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 6px 50px  0px rgb(179, 177, 177);
+    padding: 20px;
 }
 .icon{
     text-align: center;
